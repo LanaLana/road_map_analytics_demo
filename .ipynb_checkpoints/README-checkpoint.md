@@ -26,7 +26,7 @@ Preprocessing steps:
 
 Georeferenced true color image is saved in [tci.jpg](https://github.com/LanaLana/road_map_analytics_demo/blob/main/tci.jpg)
 
-![Study area](tci.jpg)
+![Study area](rgb_vis.png)
 
 ## Download road map
 
@@ -44,7 +44,7 @@ Convert lines to polygons with buffer 10
 
 Georeferenced image with road map is saved in [map.jpg](https://github.com/LanaLana/road_map_analytics_demo/blob/main/map.jpg)
 
-![Study area](map.jpg)
+![Study area](roads_vis.png)
 
 ## Run experiments
 

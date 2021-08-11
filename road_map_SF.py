@@ -159,7 +159,7 @@ def normalize():
     new_image = filter.enhance(2)
 
     #display(new_image)
-    #new_image.save('rgb_vis.png')
+    new_image.save('rgb_vis.png')
 
     with rasterio.open('./crop/B4.TIF') as f: 
         meta_data = f.profile
@@ -253,7 +253,7 @@ def merge_rgb_roads():
     new_image = filter.enhance(2)
 
     #display(new_image)
-    #new_image.save('roads_vis.png') 
+    new_image.save('roads_vis.png') 
 
     with rasterio.open('./crop/B4.TIF') as f: 
         meta_data = f.profile
